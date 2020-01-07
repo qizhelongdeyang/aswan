@@ -5,7 +5,7 @@ REDIS_CONFIG = {
     "host": "127.0.0.1",
     "port": 6379,
     "db": 1,
-    "password": "",
+    "password": "root",
     "max_connections": 40,
     "socket_timeout": 1,
     "decode_responses": True
@@ -16,7 +16,7 @@ LOG_REDIS_CONFIG = {
     "host": "127.0.0.1",
     "port": 6379,
     "db": 1,
-    "password": "",
+    "password": "root",
     "max_connections": 40,
     "socket_timeout": 1,
     "decode_responses": True
@@ -27,7 +27,7 @@ REPORT_REDIS_CONFIG = {
     "host": "127.0.0.1",
     "port": 6379,
     "db": 1,
-    "password": "",
+    "password": "root",
     "max_connections": 40,
     "socket_timeout": 1,
     "decode_responses": True
